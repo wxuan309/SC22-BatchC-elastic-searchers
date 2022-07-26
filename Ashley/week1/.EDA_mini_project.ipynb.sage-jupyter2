@@ -53,4 +53,4 @@
 {"cell_type":"raw","id":"51c0ef","input":"Write up some descriptions for your findings here....\n\n\n\n\n","pos":51,"type":"cell"}
 {"cell_type":"raw","id":"cf947c","input":"What do these columns mean?\nStage:the reproductive stage of the penguin\nclutch completion: whether or not the penguin's clutch  (a nest of eggs) is full\ndate egg: the date the nest was observed with one egg\nculmen length/depth: the length/depth of the dorsal ridge of a bird's bill\ndelta 15N: the measure of the ratio of stable isotopes 15N:14N\ndelta 13C: the measure of the ratio of stable isotopes 13C:12C","pos":11,"type":"cell"}
 {"id":0,"time":1658244679093,"type":"user"}
-{"last_load":1658498183610,"type":"file"}
+{"last_load":1658757381420,"type":"file"}

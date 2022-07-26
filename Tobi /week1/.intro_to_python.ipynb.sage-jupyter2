@@ -107,5 +107,5 @@
 {"cell_type":"markdown","id":"f90bbf","input":"Now for if statements. The if-elif-else statement is used to conditionally execute a statement or a block of statements. Conditions can be true or false, execute one thing when the condition is true, something else when the condition is false.","pos":48,"type":"cell"}
 {"cell_type":"markdown","id":"fd3019","input":"**TODO:** Make an array from my\\_array of all \\-3's:\n\n","pos":88,"type":"cell"}
 {"cell_type":"markdown","id":"fe43c1","input":"To access a specific item from the list, you would do the following.","pos":31,"type":"cell"}
-{"id":0,"time":1658513453285,"type":"user"}
-{"last_load":1658513273659,"type":"file"}
+{"id":0,"time":1658762637972,"type":"user"}
+{"last_load":1658757494302,"type":"file"}
