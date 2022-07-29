@@ -25,5 +25,5 @@
 {"cell_type":"markdown","id":"9b1f74","input":"## plot the train and validation sets","metadata":{"id":"DCCwyhkya-sM"},"pos":6,"type":"cell"}
 {"cell_type":"markdown","id":"a8f545","input":"## check our results use Scikit-learn's linear regression\n\nJust to make sure we haven’t done any mistakes in our code, we can use Scikit-Learn’s Linear Regression to fit the model and compare the coefficients.\n\nhttps://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html","metadata":{"id":"cbeaQMpna-sR"},"pos":14,"type":"cell"}
 {"cell_type":"markdown","id":"e5d860","input":"## The results!\n\nThey match up to 6 decimal places — we have a fully working implementation of linear regression using Numpy.","metadata":{"id":"yE4V3P9aa-sX"},"pos":16,"type":"cell"}
-{"id":0,"time":1658764052483,"type":"user"}
-{"last_load":1658793760529,"type":"file"}
+{"id":0,"time":1658847946571,"type":"user"}
+{"last_load":1659109940121,"type":"file"}

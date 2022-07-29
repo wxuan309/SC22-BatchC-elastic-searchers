@@ -68,4 +68,4 @@
 {"cell_type":"markdown","id":"ef89f2","input":"**Ok, we've got our dummy variables. What now?** Now we have to pick one and add it to our dataframe -- we also have to delete the old diagnosis column!","metadata":{"id":"YXI5tmDd5CKh"},"pos":21,"type":"cell"}
 {"cell_type":"markdown","id":"f5f557","input":"Do you remember how to fit a model? What parts of our data do we fit/train on? You can go look at the section above for inspiration.","metadata":{"id":"Bk4rua0er_QF"},"pos":57,"type":"cell"}
 {"id":0,"time":1658773466875,"type":"user"}
-{"last_load":1658786263780,"type":"file"}
+{"last_load":1659105559307,"type":"file"}

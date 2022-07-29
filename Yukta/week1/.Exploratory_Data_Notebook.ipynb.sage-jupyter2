@@ -1,4 +1,4 @@
-{"backend_state":"ready","kernel":"python3-ubuntu","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.8"}},"type":"settings"}
+{"backend_state":"init","kernel":"python3-ubuntu","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.8"}},"type":"settings"}
 {"cell_type":"code","exec_count":0,"id":"c01c22","input":"","pos":69,"type":"cell"}
 {"cell_type":"code","exec_count":0,"id":"da0fe2","input":"tuition.info()","metadata":{"vscode":{"languageId":"plaintext"}},"pos":18,"type":"cell"}
 {"cell_type":"code","exec_count":1,"id":"8bac45","input":"","pos":5,"type":"cell"}
@@ -69,5 +69,5 @@
 {"cell_type":"markdown","id":"ed65a4","input":"## Table Of Contents:\n* [Import Packages and Define Functions](#Import)\n* [Loading Data](#Load)\n* [Exploring Data](#Explore)\n* [Cleaning Data](#Clean)\n* [Analyzing Data](#Analyze)\n* [Visualizing Data](#Visual)","pos":1,"type":"cell"}
 {"cell_type":"markdown","id":"f14ba5","input":"### Import Packages and Define Functions <a class=\"anchor\" id=\"Import\"></a>\n##### You should have a section that imports necessary packages and defines any functions at the top of every notebook, anyone know why?","pos":2,"type":"cell"}
 {"cell_type":"markdown","id":"fb3d51","input":"First things first, now that we have completed our calculations we will turn the index into a named column for ease of graphing and we need to include state code if we want to graph on a map.\n","pos":61,"type":"cell"}
-{"id":0,"time":1658244249078,"type":"user"}
+{"id":0,"time":1659019659868,"type":"user"}
 {"last_load":1658244250190,"type":"file"}
