@@ -26,5 +26,5 @@
 {"cell_type":"markdown","id":"e2542d","input":"np docs - https://numpy.org/doc/stable/reference/index.html#reference","pos":14,"type":"cell"}
 {"cell_type":"markdown","id":"e99d37","input":"### Split the data\nOur model should ignore 20% of data points to use for testing so it doesn't just memorize the data. We need to make sure there are no missing data points before continuing.","metadata":{"id":"g5Zk8_6ksLur"},"pos":13,"type":"cell"}
 {"cell_type":"markdown","id":"ee0cea","input":"# Data Loading, Cleaning, and Setup","metadata":{"id":"JlrQHpg8a-sI"},"pos":2,"type":"cell"}
-{"id":0,"time":1658773469469,"type":"user"}
-{"last_load":1659105559309,"type":"file"}
+{"id":0,"time":1659363512655,"type":"user"}
+{"last_load":1659373527401,"type":"file"}
