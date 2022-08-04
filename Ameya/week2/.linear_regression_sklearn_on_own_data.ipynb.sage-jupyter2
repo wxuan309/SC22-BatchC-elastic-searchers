@@ -27,4 +27,4 @@
 {"cell_type":"markdown","id":"e99d37","input":"### Split the data\nOur model should ignore 20% of data points to use for testing so it doesn't just memorize the data. We need to make sure there are no missing data points before continuing.","metadata":{"id":"g5Zk8_6ksLur"},"pos":13,"type":"cell"}
 {"cell_type":"markdown","id":"ee0cea","input":"# Data Loading, Cleaning, and Setup","metadata":{"id":"JlrQHpg8a-sI"},"pos":2,"type":"cell"}
 {"id":0,"time":1659363512655,"type":"user"}
-{"last_load":1659373527401,"type":"file"}
+{"last_load":1659450201019,"type":"file"}

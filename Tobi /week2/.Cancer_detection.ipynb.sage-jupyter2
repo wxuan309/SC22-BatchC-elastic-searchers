@@ -65,5 +65,5 @@
 {"cell_type":"markdown","id":"d1a486","input":"**TODO:** can you look at the shape of the x_train, x_test, y_train, and y_test columns? Why does the shape of these columns make sense? ","metadata":{"id":"rcQ-PJQF9XSA"},"pos":33,"type":"cell"}
 {"cell_type":"markdown","id":"ecd903","input":"**Not too bad!** MSE represents  the average error (difference) between our model and the correct result. A low mean squared error means that our model makes the correct guess most of the time. \n\nBut we have to think about the nature of the problem. As Data Scientists, do we want to tell someone that we have this average error when we are predicting something as serious as breast cancer? \n\nAnd what does an error mean? Are we telling them they don't have a malignant tumor (y_hat=0) when they actually do (y_test = 1)? Are we telling them they have a tumor (y_hat=1) when they actually don't (y_test = 0)?\n\nWe can get insights on this through a confusion matrix. ","metadata":{"id":"bYj4HCmOmH42"},"pos":49,"type":"cell"}
 {"cell_type":"markdown","id":"f93eb0","input":"Now, create a confusion matrix! How are the results? Do we end up with more false negatives or false positives?","metadata":{"id":"Ge0IHJ7AtQI2"},"pos":61,"type":"cell"}
-{"id":0,"time":1659104924925,"type":"user"}
-{"last_load":1659373657073,"type":"file"}
+{"id":0,"time":1659461261667,"type":"user"}
+{"last_load":1659449000638,"type":"file"}

@@ -35,4 +35,4 @@
 {"cell_type":"markdown","id":"9661ac","input":"### Data Overview\n\n","pos":2,"type":"cell"}
 {"cell_type":"markdown","id":"9b04ae","input":"Data source: [https://www.kaggle.com/datasets/debajyotipodder/co2\\-emission\\-by\\-vehicles](https://www.kaggle.com/datasets/debajyotipodder/co2-emission-by-vehicles)\n\n","pos":3,"type":"cell"}
 {"id":0,"time":1659373531570,"type":"user"}
-{"last_load":1659373530875,"type":"file"}
+{"last_load":1659450201078,"type":"file"}

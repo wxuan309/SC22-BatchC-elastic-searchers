@@ -70,4 +70,4 @@
 {"cell_type":"markdown","id":"f78e3f","input":"This uses python's \"list comprehension\", which you can find more on here - https://www.w3schools.com/python/python_lists_comprehension.asp","pos":55,"type":"cell"}
 {"cell_type":"markdown","id":"fb1801","input":"##### Merging our Dataframe\nTo merge our dataframes we need to identify which columns we want to merge on. There's many ways to combine data, you can dive deeper here: <br>https://realpython.com/pandas-merge-join-and-concat/<br> We will be focusing on a simple merge. <br><br> For a simple merge, we want to have two dataframes that have a column by the same name we want to merge on. <br>In our case we want to merge using the 'name' column. We will only have the data of schools that appear identically in both dataframes.<br> One thing to keep in mind, you must merge on a column with the same name so often will need to rename a column from one dataframe.","pos":33,"type":"cell"}
 {"id":0,"time":1659105518122,"type":"user"}
-{"last_load":1659373657287,"type":"file"}
+{"last_load":1659449000708,"type":"file"}
