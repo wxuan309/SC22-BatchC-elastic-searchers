@@ -1,3 +1,849 @@
-<h2>
-    The index works.
-</h2>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name=
+    "viewport">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <title> Predicting CO2 Emissions of Your Vehicle </title><!-- Favicon-->
+    <link href="static/assets/favicon.ico" rel="icon" type="image/x-icon">
+    <!-- Bootstrap Icons-->
+    <link href=
+    "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    rel="stylesheet"><!-- Google fonts-->
+    <link href=
+    "https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel=
+    "stylesheet">
+    <link href=
+    "https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+    rel="stylesheet" type="text/css"><!-- SimpleLightbox plugin CSS-->
+    <link href=
+    "https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css"
+    rel="stylesheet"><!-- Core theme CSS (includes Bootstrap)-->
+    <link href="static/css/styles.css" rel="stylesheet">
+  </head>
+  <body id="page-top">
+    <!-- Navigation-->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id=
+    "mainNav">
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#page-top">Elastic Searchers</a>
+        <button aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation" class=
+        "navbar-toggler navbar-toggler-right" data-bs-target=
+        "#navbarResponsive" data-bs-toggle="collapse" type=
+        "button"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#story">Our Progress</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#EDA">EDA</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#ML">Models</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#Conclusion">Conclusion</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Product</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#TEAM">Our Team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Masthead-->
+
+    <header class="masthead">
+      <div class="container px-4 px-lg-5 h-100">
+        <div class=
+        "row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+          <div class="col-lg-8 align-self-end">
+            <h1 class="text-white font-weight-bold">
+              Predicting CO2 Emissions
+            </h1>
+
+            <hr class="divider">
+          </div>
+
+          <div class="col-lg-8 align-self-baseline">
+            <p class="text-white-75 mb-5">
+            </p>
+            <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- About-->
+
+    <section class="page-section bg-primary" id="about">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="text-white mt-0">
+              Why Care?
+            </h2>
+
+            <hr class="divider divider-light">
+
+            <p class="text-white-75 mb-4">
+              Currently, climate change is a global problem in which everyone's
+              awareness of their own environmental impact is greatly important.
+              The world's transportation sector accounts for 37% of CO2
+              emissions from end-use sectors, making a significant part of our
+              awareness needing to be on transportation. We created this
+              product so that individuals can easily have a better
+              understanding of their own car's CO2 emissions in order to become
+              a more informed consumer and individual as we all try and reduce
+              our environmental impacts.
+            </p>
+
+            <br>
+            <a class="btn btn-light btn-xl" href="#story">Get Started!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About-->
+
+    <section class="page-section" id="story">
+      <div class="container px-4 px-lg-5">
+        <div class="text-center">
+          <h2 class="text-center mt-0">
+            Our Story
+          </h2>
+          <!--<h4 class="text-muted">Lorem ipsum dolor sit amet consectetur.</h4>-->
+
+          <br>
+        </div>
+
+        <ul class="timeline">
+          <li>
+            <div class="timeline-image">
+              <img alt="..." class="rounded-circle img-fluid" src=
+              ".\static\images\python_logo_2.png">
+            </div>
+
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>
+                  Week 1
+                </h4>
+                <!--<h4 class="subheading">Our Humble Beginnings</h4>-->
+              </div>
+
+              <div class="timeline-body">
+                <p class="text-muted">
+                  In the first week, we started off learning the basics of
+                  python and machine learning. We looked at multiple data sets
+                  before settling down on the CO2 emissions data set. Thus, we
+                  learned how to train, test, and split our machine learning
+                  models.
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img alt="..." class="rounded-circle img-fluid" src=
+              ".\static\images\machine_learning_icon.png">
+            </div>
+
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>
+                  Week 2
+                </h4>
+                <!--<h4 class="subheading">An Agency is Born</h4>-->
+              </div>
+
+              <div class="timeline-body">
+                <p class="text-muted">
+                  In the second week, we learned and experimented with several
+                  machine learning models on our CO2 emissions data set. We
+                  tried several machine learning model algorithms finding that
+                  the Lasso Linear Regression delivered the best score out of
+                  all these machine learning models.
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-image">
+              <img alt="..." class="rounded-circle img-fluid" src=
+              ".\static\images\website_development_icon.png">
+            </div>
+
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>
+                  Week 3
+                </h4>
+                <!--<h4 class="subheading">Transition to Full Service</h4>-->
+              </div>
+
+              <div class="timeline-body">
+                <p class="text-muted">
+                  In the third week, we learned html, css and Flask basics and
+                  got comfortable in writing code for these new programs.
+                  Finally we implemented our findings and everything we learned
+                  in the past three weeks into one user-friendly website that
+                  would make people aware of their vehicles carbon dioxide
+                  emissions.
+                </p>
+              </div>
+            </div>
+          </li>
+          <!-- <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>July 2020</h4>
+                                <h4 class="subheading">Phase Two Expansion</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br />
+                                Of Our
+                                <br />
+                                Story!
+                            </h4>
+                        </div>
+                    </li>-->
+        </ul>
+      </div>
+    </section>
+    <!--Exploratory Data Analysis-->
+
+    <section class="page-section bg-dark text-white" id='EDA'>
+      <div class="container px-4 px-lg-5 text-center">
+        <h2 class="mb-4">
+          Exploratory Data Analysis
+        </h2>
+      </div>
+    </section>
+
+    <div id="portfolio">
+      <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href=
+            ".\static\images\Vehicle_Class_Cylinders.png" title=
+            "Vehicle Class and Cylinders"><img alt="..." class="img-fluid" src=
+            ".\static\images\Vehicle_Class_Cylinders.png">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                Vehicle Class and Cylinders
+              </div>
+
+              <div class="project-category text-white-50">
+                A box plot showing how much Vehicle Class relates to the amount
+                of Cylinders in an engine.
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href=
+            ".\static\images\Cylinders_CO2_Emmissions.png" title=
+            "Cylinders and CO2 Emissions"><img alt="..." class="img-fluid" src=
+            ".\static\images\Cylinders_CO2_Emmissions.png">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                Cylinders and CO2 Emissions
+              </div>
+
+              <div class="project-category text-white-50">
+                A box plot showing the relations of vehicle class and
+                cylinders.
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href=".\static\images\EngineSize.png" title=
+            "CO2 Emissions and Engine Size"><img alt="..." class="img-fluid"
+            src=".\static\images\EngineSize.png">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                CO2 Emissions and Engine Size
+              </div>
+
+              <div class="project-category text-white-50">
+                A scatter plot showing CO2 emissions based on engine size.
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href=".\static\images\correlation_map.png"
+            title="Correlation Map"><img alt="..." class="img-fluid" src=
+            ".\static\images\correlation_map.png">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                Correlation Map
+              </div>
+
+              <div class="project-category text-white-50">
+                A map showing the extent to which each variable is correlated.
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href=".\static\images\boxplots.png" title=
+            "Box Plots"><img alt="..." class="img-fluid" src=
+            ".\static\images\boxplots.png">
+            <div class="portfolio-box-caption p-3">
+              <div class="project-name">
+                Box Plots
+              </div>
+
+              <div class="project-category text-white-50">
+                Multiple box plots showing CO2 emissions based on vehicle
+                class.
+              </div>
+            </div></a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href=".\static\images\Scatter_matrix.png"
+            title="Scatter Matrix"><img alt="..." class="img-fluid" src=
+            ".\static\images\Scatter_matrix.png">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                Scatter Matrix
+              </div>
+
+              <div class="project-category text-white-50">
+                A scatter matrix on all the numerical data of the CO2 dataset.
+              </div>
+            </div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Machine Learning-->
+    <section class="page-section bg-dark text-white" id='ML'>
+      <div class="container px-4 px-lg-5 text-center">
+        <h2 class="mb-4">
+          Machine Learning Models
+        </h2>
+      </div>
+    </section>
+
+    <div id="portfolio">
+      <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" height="800" href=".\static\images\lasso.jpeg"
+            title="Lasso Linear Regression" width="1200"><img alt="..." class=
+            "img-fluid" src=".\static\images\lasso.jpeg">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                Lasso Linear Regression
+              </div>
+
+              <div class="project-category text-white-50">
+                Lasso regression is a regularization technique which uses
+                shrinkage, when data is shrunk around a central point like the
+                mean. We got a RMSE of 6.665 and a NRMSE of 0.016
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href=".\static\images\scikit_learn.png" title=
+            "Scikit-learn"><img alt="..." class="img-fluid" src=
+            ".\static\images\scikit_learn.png">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                Machine Learning Models
+              </div>
+
+              <div class="project-category text-white-50">
+                hover your mouse on different images to learn more about each
+                machine learning models
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href=".\static\images\ridgeregression.png"
+            title="Ridge Regression"><img alt="..." class="img-fluid" src=
+            ".\static\images\ridgeregression.png">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                Ridge Regression
+              </div>
+
+              <div class="project-category text-white-50">
+                Ridge regression is a machine learning model that estimates
+                coefficients in scenarios where the data suffers
+                multicollinearily, which means that the independent variables
+                are highly correlated and it has predicted values far away from
+                the actual values. Apart from using L2 regularization, a
+                procedure that prevents excessive fluctuation of the
+                coefficients, ridge regression also protects the model from
+                overfitting. The root mean square error was 7.660, and the
+                normalized RMSE was 0.0179.
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href=".\static\images\SVR.png" title=
+            "Support Vector Regression"><img alt="..." class="img-fluid" src=
+            ".\static\images\SVR.png">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                Support Vector Regression
+              </div>
+
+              <div class="project-category text-white-50">
+                Support Vector Regression is a model based on finding the best
+                line to fit the data points within its margins. For the SVR, we
+                implemented 3 hyper parameters, kernel, tolerance, and cost.
+                After refitting the data, we get the RMSE of 19.86 and the
+                NRMSE as 0.047.
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href=".\static\images\xgboost.png" title=
+            "XGBoost"><img alt="..." class="img-fluid" src=
+            ".\static\images\xgboost.png">
+            <div class="portfolio-box-caption">
+              <div class="project-name">
+                XGBoost
+              </div>
+
+              <div class="project-category text-white-50">
+                XGBoost is a machine learning library that uses the gradient
+                boosting framework for its model. It works by making a weak
+                learning tree then making a second one that predicts the errors
+                of the previous tree and it repeats this process during
+                training to make its final prediction. With this model we got
+                an RMSE of 114.230 and an NRMSE of 0.268
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href=
+            ".\static\images\Random_forest_diagram_complete.png" title=
+            "Random Forest Regressor"><img alt="..." class="img-fluid" src=
+            ".\static\images\Random_forest_diagram_complete.png">
+            <div class="portfolio-box-caption p-3">
+              <div class="project-name">
+                Random Forest
+              </div>
+
+              <div class="project-category text-white-50">
+                In Random Forest, we’ve got a collection of decision trees
+                (also-known as “Forest”). Forests generally have high number of
+                predictive variables and huge sample size. This is because it
+                captures the variance of several input variables at the same
+                time and enables high number of observations to participate in
+                the prediction. With this we got an RMSE of 0.262 .
+              </div>
+            </div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="page-section bg-primary" id="Conclusion">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="text-white mt-0">
+              Conclusion
+            </h2>
+
+            <hr class="divider divider-light">
+
+            <p class="text-white-75 mb-4">
+              After trying various machine learning models and determining
+              their NRMSE(normalized root mean square error), we determined
+              that the lasso linear regression model would work best for our
+              data. We then went on to narrow down potential inputs, keeping
+              what the user would know about their car in mind. You can now
+              input details about your own vehicle below in order to use our
+              model and get an estimate of your vehicle's CO2 emissions. We
+              hope that with this information about your own impact, you will
+              be a more informed consumer when shopping for new vehicles and
+              when using your current one.
+            </p>
+
+            <br>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- User Input-->
+
+    <section class="page-section" id="contact">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-8 col-xl-6 text-center">
+            <h2 class="mt-0">
+              Try Our Product
+            </h2>
+
+            <hr class="divider">
+
+            <p class="text-muted mb-5">
+              Ready to calculate your vehicle's CO2 emission rate? Below,
+              select your car's make, model, vehicle class, fuel type, and
+              miles per gallon.
+            </p>
+          </div>
+        </div>
+
+        <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+          <div class="col-lg-6">
+            <!-- * * * * * * * * * * * * * * *-->
+            <!-- * * SB Forms Contact Form * *-->
+            <!-- * * * * * * * * * * * * * * *-->
+            <!-- This form is pre-integrated with SB Forms.-->
+            <!-- To make this form functional, sign up at-->
+            <!-- https://startbootstrap.com/solution/contact-forms-->
+            <!-- to get an API token!-->
+
+            <form id="contactForm" name="contactForm" action = "", method = "post">
+              <script>
+              var subjectObject = {
+              "ACURA": ["ILX", "ILX HYBRID", "MDX 4WD", "RDX AWD", "RLX", "TL", "TL AWD", "TSX", "MDX SH-AWD", "RLX HYBRID", "TLX", "TLX SH-AWD", "MDX SH-AWD ELITE", "MDX HYBRID AWD", "NSX", "TLX A-SPEC", "TLX SH-AWD A-SPEC", "MDX SH-AWD A-SPEC", "MDX Hybrid AWD", "RDX AWD A-SPEC", "RLX Hybrid", "TLX SH-AWD A-SPEC/Limited Edition"],
+              "ALFA ROMEO": ["4C", "4C SPIDER", "GIULIA", "GIULIA AWD", "GIULIA QUADRIFOGLIO", "4C COUPE", "STELVIO AWD", "STELVIO QUADRIFOGLIO", "4C Coupe", "4C Spider", "Giulia", "Giulia AWD", "Giulia Quadrifoglio", "Stelvio", "Stelvio AWD", "Stelvio AWD Quadrifoglio"],
+              "ASTON MARTIN": ["DB9", "RAPIDE", "V8 VANTAGE", "V8 VANTAGE S", "VANQUISH", "RAPIDE S", "V12 VANTAGE S", "VANTAGE GT", "DB9 GT", "DB11 V12", "DB11 V8", "DB11 AMR", "DBS Superleggera", "Rapide AMR", "Vanquish Zagato", "Vantage V8"],
+              "AUDI": ["A4", "A4 QUATTRO", "A5 CABRIOLET QUATTRO", "A5 QUATTRO", "A6 QUATTRO", "A6 QUATTRO TDI (modified)", "A7 QUATTRO", "A7 QUATTRO TDI (modified)", "A8", "A8 TDI (modified)", "A8L", "A8L TDI (modified)", "ALLROAD QUATTRO", "Q5", "Q5 TDI (modified)", "Q5 HYBRID", "Q7", "Q7 TDI (modified)", "R8", "R8 SPYDER", "RS 5", "RS 5 CABRIOLET", "RS 7", "S4", "S5", "S5 CABRIOLET", "S6", "S7", "S8", "SQ5", "TT COUPE QUATTRO", "TT ROADSTER QUATTRO", "TTS COUPE QUATTRO", "TTS ROADSTER QUATTRO", "A3", "A3 TDI (modified)", "A3 QUATTRO", "A3 CABRIOLET QUATTRO", "A4 ALLROAD QUATTRO", "Q3", "Q3 QUATTRO", "S3", "A8 QUATTRO", "A8 QUATTRO TDI (modified)", "A8L QUATTRO", "Q5 QUATTRO", "Q5 QUATTRO TDI (modified)", "Q5 HYBRID QUATTRO", "RS 7 QUATTRO", "S3 QUATTRO", "S4 QUATTRO", "S5 QUATTRO", "S5 CABRIOLET QUATTRO", "S6 QUATTRO", "S7 QUATTRO", "S8 QUATTRO", "SQ5 QUATTRO", "A4 ULTRA", "A5 SPORTBACK QUATTRO", "R8 QUATTRO", "RS 3", "S5 SPORTBACK", "TT RS", "TTS COUPE", "A3 quattro", "A3 Cabriolet quattro", "A4 quattro", "A4 allroad quattro", "A5 quattro", "A5 Cabriolet quattro", "A5 Sportback quattro", "A6 quattro", "A7 quattro", "Q3 quattro", "Q8", "RS 5 Coupe", "RS 5 Sportback", "S5 Cabriolet", "S5 Sportback", "TT Coupe quattro", "TT Roadster quattro", "TT RS Coupe", "TTS Coupe", "A6 allroad", "R8 Coupe", "R8 Spyder"],
+              "BENTLEY": ["CONTINENTAL GT", "CONTINENTAL GTC", "CONTINENTAL GT SPEED CONVERTIBLE", "FLYING SPUR", "MULSANNE", "CONTINENTAL GT CONVERTIBLE", "CONTINENTAL GT3-R", "BENTAYGA", "MULSANNE EWB", "CONTINENTAL SUPERSPORTS", "Bentayga", "Mulsanne", "Continental GT", "Continental GT Convertible", "Flying Spur"],
+              "BMW": ["320i", "320i xDRIVE", "328d xDRIVE", "328d xDRIVE TOURING","328i", "328i xDRIVE", "328i xDRIVE GRAN TURISMO", "328i xDRIVE TOURING", "335i", "335i xDRIVE", "335i xDRIVE GRAN TURISMO", "428i COUPE", "428i xDRIVE COUPE", "435i COUPE", "435i xDRIVE COUPE", "528i", "528i xDRIVE", "535d xDRIVE", "535i xDRIVE", "535i xDRIVE GRAN TURISMO", "550i xDRIVE", "550i xDRIVE GRAN TURISMO", "640i xDRIVE GRAN COUPE", "650i xDRIVE CABRIOLET", "650i xDRIVE COUPE", "650i xDRIVE GRAN COUPE", "740Li xDRIVE", "750i xDRIVE", "750Li xDRIVE", "760Li", "ACTIVEHYBRID 3", "ACTIVEHYBRID 5", "ACTIVEHYBRID 7L", "ALPINA B7 xDRIVE LWB", "ALPINA B7 xDRIVE SWB", "M5", "M6", "M6 CABRIOLET", "M6 GRAN COUPE", "X1 xDRIVE28i", "X1 xDRIVE35i", "X3 xDRIVE28i", "X3 xDRIVE35i", "X5 xDRIVE35i", "X5 xDRIVE50i", "X6 M", "X6 xDRIVE35i", "X6 xDRIVE50i", "Z4 sDRIVE28i", "Z4 sDRIVE35i", "Z4 sDRIVE35is", "228i CABRIOLET", "228i COUPE", "228i xDRIVE CABRIOLET", "228i xDRIVE COUPE", "320i SEDAN", "320i xDRIVE SEDAN", "328d xDRIVE SEDAN", "328i SEDAN", "328i xDRIVE SEDAN", "335i SEDAN", "335i xDRIVE SEDAN", "428i CABRIOLET", "428i GRAN COUPE", "428i xDRIVE CABRIOLET", "428i xDRIVE GRAN COUPE", "435i CABRIOLET", "435i GRAN COUPE", "435i xDRIVE CABRIOLET", "435i xDRIVE GRAN COUPE", "528i SEDAN", "528i xDRIVE SEDAN", "535d xDRIVE SEDAN", "535i xDRIVE SEDAN", "550i xDRIVE SEDAN", "640i xDRIVE CABRIOLET", "740Ld xDRIVE SEDAN", "740Li xDRIVE SEDAN", "750i xDRIVE SEDAN", "750Li xDRIVE SEDAN", "760Li SEDAN", "ALPINA B6 xDRIVE GRAN COUPE", "M235i CABRIOLET", "M235i COUPE", "M235i xDRIVE COUPE", "M3 SEDAN", "M4 CABRIOLET", "M4 COUPE", "M5 SEDAN", "M6 COUPE", "X3 xDRIVE28d", "X4 xDRIVE28i", "X4 xDRIVE35i", "X5 M", "X5 xDRIVE35d", "228i", "228i xDRIVE", "340i", "340i xDRIVE", "M2", "M235i", "M235i xDRIVE", "M235i xDRIVE CABRIOLET", "M3", "X4 M40i", "230i CABRIOLET", "230i COUPE", "230i xDRIVE CABRIOLET", "230i xDRIVE COUPE", "330i xDRIVE", "330i xDRIVE GRAN TURISMO", "330i xDRIVE TOURING", "340i xDRIVE GRAN TURISMO", "430i xDRIVE CABRIOLET", "430i xDRIVE COUPE", "430i xDRIVE GRAN COUPE", "440i COUPE", "440i xDRIVE CABRIOLET", "440i xDRIVE COUPE", "440i xDRIVE GRAN COUPE", "530i xDRIVE", "540i xDRIVE", "ALPINA B7 xDRIVE", "M240i CABRIOLET", "M240i COUPE", "M240i xDRIVE CABRIOLET", "M240i xDRIVE COUPE", "M760i xDRIVE", "640i xDRIVE GRAN TURISMO", "750i xDRIVE SWB", "M550i xDRIVE", "X2 xDRIVE28i", "X3 xDRIVE30i", "X3 M40i", "230i xDrive Cabriolet", "230i xDrive Coupe", "330i xDrive", "330i xDrive Gran Turismo", "330i xDrive Touring", "430i xDrive Cabriolet", "430i xDrive Coupe", "430i xDrive Gran Coupe", "440i Coupe", "440i xDrive Cabriolet", "440i xDrive Coupe", "440i xDrive Gran Coupe", "530i xDrive", "540i xDrive", "640i xDrive Gran Coupe", "640i xDrive Gran Turismo", "650i xDrive Gran Coupe", "750i xDrive", "750Li xDrive", "Alpina B6 xDrive Gran Coupe", "Alpina B7 xDrive", "M2 Competition", "M240i Cabriolet", "M240i Coupe", "M240i Coupe M Performance", "M240i xDrive Cabriolet", "M240i xDrive Coupe", "M240i xDrive Coupe M Performance", "M4 Cabriolet", "M4 Cabriolet Competition", "M4 Coupe", "M4 Coupe Competition", "M4 CS", "M5 Competition", "M550i xDrive", "M6 Gran Coupe", "M760Li xDrive", "M850i xDrive Cabriolet", "M850i xDrive Coupe", "X1 xDrive28i", "X2 xDrive28i",  "X3 xDrive30i", "X4 xDrive30i", "X5 xDrive40i", "X5 xDrive50i", "X6 xDrive35i", "X6 xDrive50i", "X7 xDrive40i", "X7 xDrive50i", "230i Cabriolet", "230i Coupe", "330i xDrive Sedan", "430i Coupe", "530i xDrive Sedan", "540i xDrive Sedan", "750i xDrive Sedan", "750Li xDrive Sedan", "M340i xDrive Sedan", "M5 Sedan", "M550i xDrive Sedan", "M760i xDrive Sedan", "M8 Cabriolet", "M8 Cabriolet Competition", "M8 Coupe", "M8 Coupe Competition", "M8 Gran Coupe", "M8 Gran Coupe Competition", "M850i xDrive Gran Coupe", "X2 M35i", "X3 M", "X3 M Competition", "X4 M", "X4 M Competition", "X5 M50i", "X6 xDrive40i", "X6 M50i", "X7 M50i", "Z4 sDrive30i", "Z4 M40i"],
+              "BUGATTI": ["CHIRON", "Chiron"],
+              "BUICK": ["ENCLAVE", "ENCLAVE AWD", "ENCORE", "ENCORE AWD", "LACROSSE", "LACROSSE AWD", "LACROSSE eASSIST", "REGAL", "REGAL AWD", "REGAL eASSIST", "VERANO", "ENCORE SPORT TOURING", "ENCORE SPORT TOURING AWD", "ENVISION AWD", "LACROSSE FFV", "LACROSSE AWD FFV", "ENCORE (LUV Engine)", "ENCORE (LE2 Engine)", "ENCORE AWD (LUV Engine)", "ENCORE AWD (LE2 Engine)", "ENCORE (SIDI with Stop/Start)", "ENCORE AWD (SIDI with Stop/Start)", "Enclave", "Enclave AWD", "Encore", "Encore (SIDI with Stop/Start)", "Encore AWD", "Encore AWD (SIDI with Stop/Start)", "Envision AWD", "LaCrosse", "LaCrosse eAssist", "LaCrosse AWD", "Regal", "Regal AWD", "Encore GX", "Encore GX AWD"],
+              "CADILLAC": ["ATS", "ATS AWD", "CTS COUPE", "CTS COUPE AWD", "CTS SEDAN", "CTS SEDAN AWD", "CTS SEDAN Vsport", "CTS SPORT WAGON", "CTS SPORT WAGON AWD", "CTS-V COUPE", "CTS-V SEDAN", "CTS-V SPORT WAGON", "ESCALADE AWD", "ESCALADE ESV AWD", "SRX", "SRX AWD", "XTS", "XTS AWD", "XTS Vsport AWD", "CTS", "CTS AWD", "CTS Vsport", "ESCALADE 4WD", "ESCALADE ESV 4WD", "ATS-V", "CT6", "CT6 AWD", "CTS-V", "XT5", "XT5 AWD", "Escalade 4WD", "XT4", "XT4 AWD", "CT4", "CT4 AWD", "CT4-V", "CT4-V AWD", "CT5", "CT5 AWD", "CT5-V", "CT5-V AWD", "XT6 AWD"],
+              "CHEVROLET": ["CAMARO", "CAMARO 2LS", "CAMARO SS", "CAMARO ZL1", "CORVETTE", "CRUZE", "CRUZE DIESEL", "CRUZE ECO", "EQUINOX", "EQUINOX AWD", "EXPRESS 1500 CARGO", "EXPRESS 1500 CARGO AWD", "EXPRESS 1500 CARGO CONV", "EXPRESS 1500 CARGO CONV AWD", "EXPRESS 1500 PASSENGER", "EXPRESS 1500 PASSENGER AWD", "EXPRESS 2500 PASSENGER", "EXPRESS 3500 PASSENGER", "IMPALA", "IMPALA ECO", "MALIBU", "ORLANDO", "SILVERADO", "SILVERADO 4WD", "SONIC", "SONIC RS", "SONIC 5", "SONIC 5 RS", "SPARK", "SUBURBAN", "SUBURBAN 4WD", "TAHOE", "TAHOE 4WD", "TRAVERSE", "TRAVERSE AWD", "TRAX", "TRAX AWD", "CAMARO Z/28", "CITY EXPRESS", "COLORADO", "COLORADO 4WD", "CORVETTE Z06", "EQUINOX FFV", "EQUINOX AWD FFV", "EXPRESS 2500 PASSENGER FFV", "EXPRESS 3500 PASSENGER FFV", "CRUZE PREMIER", "CRUZE LIMITED", "CRUZE LIMITED ECO", "IMPALA FFV", "IMPALA DUAL FUEL", "MALIBU LIMITED", "MALIBU HYBRID", "SILVERADO FFV", "SILVERADO 4WD FFV", "SILVERADO eASSIST 4WD", "SUBURBAN FFV", "SUBURBAN 4WD FFV", "TAHOE FFV", "TAHOE 4WD FFV", "TRAX 4WD", "COLORADO ZR2 4WD", "CRUZE HATCHBACK", "CRUZE HATCHBACK PREMIER", "CRUZE HATCHBACK DIESEL", "SILVERADO eASSIST", "Blazer", "Blazer AWD", "Camaro", "Camaro SS", "Camaro ZL1", "Colorado", "Colorado 4WD", "Colorado ZR2 4WD", "Corvette", "Corvette Z06", "Corvette ZR1", "Cruze", "Cruze Premier", "Cruze Diesel", "Cruze Hatchback", "Cruze Hatchback Premier", "Cruze Hatchback Diesel", "Equinox", "Equinox AWD", "Impala", "Malibu", "Malibu Hybrid", "Silverado", "Silverado FFV", "Silverado 4WD", "Silverado 4WD Trail Boss", "Silverado 4WD FFV", "Silverado LD", "Silverado LD 4WD", "Spark", "Suburban", "Suburban FFV", "Suburban 4WD", "Suburban 4WD FFV", "Tahoe", "Tahoe FFV", "Tahoe 4WD", "Tahoe 4WD FFV", "Traverse", "Traverse AWD", "Trax", "Trax 4WD", "Silverado WT", "Silverado WT 4WD", "Silverado 4WD Custom Trail Boss", "Silverado 4WD LT Trail Boss", "Trax AWD"],
+              "CHRYSLER": ["300", "200 CONVERTIBLE", "200 CONVERTIBLE FFV", "200 SEDAN", "200 SEDAN FFV", "300 (MDS)", "300 AWD", "300 AWD (MDS)", "300 AWD FFV", "300 FFV", "300 SRT (MDS)", "TOWN & COUNTRY FFV", "200", "200 FFV", "200 AWD", "200 AWD FFV", "PACIFICA", "PACIFICA (Stop-Start)", "Pacifica", "Pacifica (Stop-Start)", "Voyager (Stop-Start)"],
+              "DODGE": ["AVENGER", "AVENGER FFV", "CHALLENGER", "CHALLENGER (MDS)", "CHALLENGER SRT", "CHALLENGER SRT (MDS)", "CHARGER", "CHARGER (MDS)", "CHARGER AWD", "CHARGER AWD (MDS)", "CHARGER AWD FFV", "CHARGER FFV", "CHARGER SRT (MDS)", "DART", "DART FFV", "DART GT", "DART TURBO AERO", "DURANGO AWD (MDS)", "DURANGO AWD FFV", "GRAND CARAVAN FFV", "JOURNEY", "JOURNEY AWD", "JOURNEY FFV", "CHALLENGER SRT HELLCAT", "CHARGER SRT 392 HEMI", "CHARGER SRT HELLCAT", "VIPER SRT COUPE", "DURANGO AWD", "VIPER SRT", "CHALLENGER GT", "VIPER", "CHALLENGER GT AWD", "CHALLENGER GT AWD FFV", "CHALLENGER SRT DEMON", "DURANGO AWD SRT", "Challenger", "Challenger (MDS)", "Challenger GT AWD", "Challenger SRT Hellcat", "Challenger SRT Hellcat Redeye", "Charger", "Charger FFV", "Charger (MDS)", "Charger AWD", "Charger AWD FFV", "Charger AWD (MDS)", "Charger SRT Hellcat", "Durango AWD", "Durango AWD SRT", "Grand Caravan FFV", "Journey", "Journey FFV", "Journey AWD", "Challenger AWD", "Challenger Widebody (MDS)", "Challenger SRT Hellcat Widebody", "Charger Widebody (MDS)", "Charger SRT Hellcat Widebody", "Grand Caravan"],
+              "FIAT": ["500 ABARTH CABRIO", "500 ABARTH HATCHBACK", "500 CABRIO", "500 CABRIO TURBO", "500 HATCHBACK", "500 HATCHBACK TURBO", "500L TURBO", "500L", "500X", "500X AWD", "124 SPIDER", "500", "500 ABARTH", "124 Spider"],
+              "FORD": ["C-MAX HYBRID", "E150 VAN FFV", "E150 WAGON FFV", "E350 WAGON", "E350 WAGON FFV", "EDGE", "EDGE AWD", "ESCAPE", "ESCAPE AWD", "EXPEDITION 4X4 FFV", "EXPLORER", "EXPLORER AWD", "EXPLORER FFV", "EXPLORER FFV AWD", "F-150", "F-150 4X4", "F-150 FFV", "F-150 FFV 4X4", "F-150 RAPTOR 4X4", "FIESTA", "FIESTA SFE", "FIESTA ST", "FLEX", "FLEX AWD", "FLEX AWD (EcoBoost)", "FOCUS", "FOCUS FFV", "FOCUS SFE FFV", "FUSION", "FUSION (Start/Stop)", "FUSION AWD", "FUSION HYBRID", "MUSTANG", "MUSTANG CONVERTIBLE", "TAURUS", "TAURUS AWD", "TAURUS FFV", "TAURUS FFV AWD", "TRANSIT CONNECT", "TRANSIT CONNECT TAXI", "TRANSIT CONNECT WAGON", "EDGE (Start/Stop)", "EDGE SPORT AWD", "EXPEDITION 4X4", "EXPEDITION MAX 4X4", "EXPLORER AWD (EcoBoost)", "T-150 WAGON", "T-150 WAGON FFV", "TRANSIT CONNECT VAN", "TRANSIT CONNECT WAGON TAXI", "EXPEDITION EL 4X4", "F-150 (Payload Pkg)", "F-150 FFV (Payload Pkg)", "F-150 4X4 (Payload Pkg)", "F-150 FFV 4X4 (Payload Pkg)", "FLEX AWD GTDI", "FOCUS RS AWD", "FOCUS ST", "SHELBY GT350 MUSTANG", "TRANSIT CONNECT VAN FFV", "TRANSIT CONNECT WAGON FFV", "TRANSIT CONNECT WAGON LWB", "TRANSIT CONNECT WAGON LWB FFV", "ESCAPE FFV", "F-150 (LT Tire Pkg)", "F-150 4X4 (LT Tire Pkg)", "F-150 FFV 4X4 (LT Tire Pkg)", "FOCUS (Start/Stop)", "GT", "MUSTANG (Performance Pkg)", "ECOSPORT", "ECOSPORT AWD", "F-150 FFV (LT Tire Pkg)", "F-150 4X4 XL/XLT", "F-150 RAPTOR 4WD", "EcoSport", "EcoSport AWD", "Edge", "Edge AWD", "Escape", "Escape FFV", "Escape AWD", "Expedition 4X4", "Expedition MAX 4X4", "Explorer AWD", "Explorer FFV AWD", "F-150 4X4 Limited", "F-150 Raptor 4X4", "Flex", "Flex AWD", "Flex AWD GTDI", "Fiesta", "Fiesta ST", "Fusion", "Fusion Hybrid", "Mustang", "Mustang (Performance Pkg)", "Mustang Bullitt", "Mustang Convertible", "Ranger 4WD", "Shelby GT350 Mustang", "T-150 Wagon", "Taurus FFV", "Taurus AWD", "Taurus FFV AWD", "Transit Connect Van", "Transit Connect Van FFV", "Transit Connect Wagon LWB", "Transit Connect Wagon LWB FFV", "Escape Hybrid", "Escape Hybrid AWD", "Explorer Hybrid AWD", "Mustang Convertible (Performance Pkg)", "Shelby GT500 Mustang", "T-150 Wagon FFV", "T-150 Wagon FFV 4WD", "Transit Connect Van LWB"],
+              "GENESIS": ["G80 AWD", "G90 AWD", "G70", "G70 AWD"],
+              "GMC": ["ACADIA", "ACADIA AWD", "SAVANA 1500 CARGO", "SAVANA 1500 CARGO AWD", "SAVANA 1500 CARGO CONV", "SAVANA 1500 CARGO CONV AWD", "SAVANA 1500 PASSENGER", "SAVANA 1500 PASSENGER AWD", "SAVANA 2500 PASSENGER", "SAVANA 3500 PASSENGER", "SIERRA", "SIERRA 4WD", "TERRAIN", "TERRAIN AWD", "YUKON", "YUKON 4WD", "YUKON DENALI AWD", "YUKON DENALI XL AWD", "YUKON XL", "YUKON XL 4WD", "CANYON", "CANYON 4WD", "SAVANA 2500 PASSENGER FFV", "SAVANA 3500 PASSENGER FFV", "TERRAIN FFV", "YUKON DENALI 4WD", "YUKON XL DENALI 4WD", "SIERRA FFV", "SIERRA 4WD FFV", "SIERRA eASSIST 4WD", "YUKON FFV", "YUKON 4WD FFV", "YUKON XL FFV", "YUKON XL 4WD FFV", "SIERRA eASSIST", "Acadia", "Acadia AWD", "Canyon", "Canyon 4WD", "Sierra", "Sierra FFV", "Sierra 4WD", "Sierra 4WD FFV", "Sierra 4WD AT4", "Sierra LTD", "Sierra LTD 4WD", "Terrain", "Terrain AWD", "Yukon", "Yukon FFV", "Yukon 4WD", "Yukon 4WD FFV", "Yukon XL", "Yukon XL FFV", "Yukon XL 4WD", "Yukon XL 4WD FFV", "Sierra WT", "Sierra WT 4WD"],
+              "HONDA": ["ACCORD", "ACCORD HYBRID", "CIVIC", "CROSSTOUR AWD", "CR-V", "CR-V AWD", "CR-Z", "FIT", "ODYSSEY", "PILOT", "PILOT AWD", "RIDGELINE AWD", "CIVIC Si", "CIVIC HYBRID", "PILOT 4WD", "ACCORD COUPE", "ACCORD SEDAN", "ACCORD SPORT", "CIVIC COUPE", "CIVIC SEDAN", "HR-V", "HR-V AWD", "CIVIC HATCHBACK", "ACCORD SPORT/TOURING", "CIVIC COUPE Si", "CIVIC HATCHBACK SPORT", "CIVIC SEDAN Si", "CIVIC TYPE R", "ODYSSEY TOURING", "Accord", "Accord Sport/Touring", "Accord Hybrid", "Civic Coupe", "Civic Coupe Si", "Civic Hatchback", "Civic Hatchback Sport", "Civic Sedan", "Civic Sedan Si", "Civic Type R", "Fit", "Insight EX", "Insight Touring", "Odyssey", "Odyssey Touring", "Passport AWD", "Pilot", "Pilot AWD", "Ridgeline AWD", "Insight EX/Touring"],
+              "HYUNDAI": ["ACCENT", "ELANTRA GT", "EQUUS", "GENESIS", "SANTA FE", "SANTA FE 4WD", "SANTA FE SPORT", "SANTA FE SPORT 4WD", "SONATA", "SONATA HYBRID", "SONATA HYBRID LIMITED", "TUCSON", "TUCSON 4WD", "VELOSTER", "VELOSTER TURBO", "ELANTRA", "ELANTRA COUPE", "GENESIS AWD", "GENESIS COUPE", "SANTA FE AWD", "SANTA FE SPORT AWD", "SANTA FE ULTIMATE AWD", "SONATA SPORT/LIMITED", "TUCSON AWD", "IONIQ", "IONIQ BLUE", "SONATA HYBRID SE", "KONA", "KONA AWD", "SANTA FE SPORT ULTIMATE AWD", "Accent", "Elantra", "Elantra GT", "IONIQ Blue", "Kona", "Kona AWD", "Santa Fe", "Santa Fe AWD", "Santa Fe XL", "Santa Fe XL AWD", "Santa Fe XL Ultimate AWD", "Sonata", "Sonata SE", "Sonata Hybrid", "Sonata Hybrid SE", "Tucson", "Tucson AWD", "Veloster", "Veloster N", "Veloster Turbo", "Palisade", "Palisade AWD", "Venue"],
+              "INFINITI": ["Q50", "Q50 AWD", "Q50 HYBRID", "Q50 HYBRID AWD", "Q60 AWD COUPE", "Q60 CONVERTIBLE", "Q60 COUPE", "Q70", "Q70 AWD", "Q70 HYBRID", "QX50 AWD", "QX60", "QX60 AWD", "QX60 HYBRID AWD", "QX70 AWD", "QX80 4WD", "Q60", "Q60 AWD", "Q50S AWD", "Q50S RED SPORT", "Q50S RED SPORT AWD", "Q60S RED SPORT AWD", "QX30", "QX30 AWD", "Q50 AWD RED SPORT", "Q60 AWD RED SPORT", "Q50 AWD Red Sport", "Q60 AWD Red Sport"],
+              "JAGUAR": ["F-TYPE CONVERTIBLE", "F-TYPE S CONVERTIBLE", "F-TYPE V8 S CONVERTIBLE", "XF", "XF 3.0L AWD", "XFR", "XFR-S", "XJ AWD", "XJ SUPERCHARGED", "XJL AWD PORTFOLIO", "XJL SUPERCHARGED", "XJR", "XJR LWB", "XK CONVERTIBLE", "XK COUPE", "XKR CONVERTIBLE", "XKR COUPE", "XKR-S CONVERTIBLE", "XKR-S COUPE", "F-TYPE COUPE", "F-TYPE S COUPE", "F-TYPE V8 R COUPE", "XF AWD", "F-TYPE PROJECT 7 CONVERTIBLE", "F-TYPE R AWD CONVERTIBLE", "F-TYPE R AWD COUPE", "F-TYPE S CONVERTIBLE AWD", "F-TYPE S COUPE AWD", "XF AWD ", "XJ R-SPORT 3.0 AWD", "XJL 3.0 AWD PORTFOLIO", "F-PACE 35t", "F-TYPE R CONVERTIBLE AWD", "F-TYPE R COUPE AWD", "XE 20d AWD", "XE 35t AWD", "XF 20d AWD", "XF 35t AWD", "XJL PORTFOLIO 3.0 AWD", "XJR  LWB", "F-PACE 20d", "F-PACE 25t", "F-TYPE CONVERTIBLE R-DYNAMIC", "F-TYPE CONVERTIBLE R-DYNAMIC AWD", "F-TYPE COUPE R-DYNAMIC", "F-TYPE COUPE R-DYNAMIC AWD", "XE 25t AWD", "XF 25t AWD", "XJ R-SPORT AWD", "XJL PORTFOLIO AWD", "E-PACE P250", "F-TYPE Convertible", "F-TYPE Convertible R-Dynamic", "F-TYPE Convertible R-Dynamic AWD", "F-TYPE Coupe", "F-TYPE Coupe R-Dynamic", "F-TYPE Coupe R-Dynamic AWD", "F-TYPE R AWD Convertible", "F-TYPE R AWD Coupe", "XJ R-Sport AWD", "XJL Portfolio AWD", "E-PACE P300", "F-PACE 30t", "F-PACE S", "F-PACE SVR", "F-TYPE P300 Convertible", "F-TYPE SVR AWD Convertible", "F-TYPE P300 Coupe", "F-TYPE SVR AWD Coupe", "XE P250 AWD", "XE P300 AWD", "XF 30t AWD", "XF S AWD"],
+              "JEEP": ["CHEROKEE", "CHEROKEE 4X4", "CHEROKEE 4X4 ACTIVE DRIVE II", "CHEROKEE TRAILHAWK 4X4", "COMPASS", "COMPASS 4X4", "COMPASS 4X4 TRAIL RATED", "GRAND CHEROKEE 4X4 (MDS)", "GRAND CHEROKEE 4X4 DIESEL", "GRAND CHEROKEE 4X4 FFV", "GRAND CHEROKEE SRT 4X4 (MDS)", "PATRIOT", "PATRIOT 4X4", "PATRIOT 4X4 TRAIL RATED", "WRANGLER 4X4 (2-DOOR)", "WRANGLER UNLIMITED 4X4 (4-DOOR)", "CHEROKEE FFV", "CHEROKEE 4X4 FFV", "RENEGADE", "RENEGADE FFV", "RENEGADE 4X4", "WRANGLER 4X4", "WRANGLER UNLIMITED 4X4", "GRAND CHEROKEE 4X4", "CHEROKEE 4X4 ACTIVE DRIVE I", "CHEROKEE 4X4 ACTIVE DRIVE LOCK", "GRAND CHEROKEE SRT8", "NEW COMPASS", "NEW COMPASS 4X4", "CHEROKEE 4X4 ACTIVE DRIVE I FFV", "GRAND CHEROKEE 4X4 SRT", "GRAND CHEROKEE 4X4 TRACKHAWK", "NEW WRANGLER 4X4", "NEW WRANGLER UNLIMITED 4X4", "WRANGLER JK 4X4", "WRANGLER JK UNLIMITED 4X4", "Cherokee", "Cherokee 4X4 Active Drive I", "Cherokee 4X4 Active Drive II", "Cherokee 4X4 Active Drive Lock", "Compass", "Compass 4X4", "Grand Cherokee 4X4", "Grand Cherokee 4X4 EcoDiesel", "Grand Cherokee 4X4 SRT", "Grand Cherokee 4X4 Trackhawk", "Renegade", "Renegade 4X4", "Renegade 4X4 Trailhawk", "Wrangler JL 4X4", "Wrangler JL Unlimited 4X4", "Gladiator 4X4", "Wrangler 4X4", "Wrangler 4X4 eTorque", "Wrangler Unlimited 4X4", "Wrangler Unlimited 4X4 eTorque", "Wrangler Unlimited 4X4 EcoDiesel"],
+              "KIA": ["CADENZA", "FORTE", "FORTE 5", "FORTE KOUP", "OPTIMA", "OPTIMA HYBRID", "OPTIMA HYBRID EX", "RIO", "RIO ECO", "RONDO", "SEDONA", "SORENTO", "SORENTO 4WD", "SOUL", "SOUL ECO Dynamics", "SPORTAGE", "SPORTAGE AWD", "K900", "SEDONA SX", "SEDONA SXL", "SORENTO AWD", "SOUL ECO DYNAMICS", "FORTE (MPI)", "FORTE (GDI)", "NIRO", "NIRO FE", "NIRO TOURING", "OPTIMA FE", "OPTIMA TURBO", "SORENTO AWD FE", "SOUL TURBO", "STINGER AWD", "Cadenza", "Forte", "Niro", "Niro FE", "Niro Touring", "Optima", "Optima Hybrid", "Rio", "Sedona", "Sorento", "Sorento AWD", "Soul", "Sportage", "Sportage AWD", "Stinger AWD", "Forte 5", "Telluride AWD"],
+              "LAMBORGHINI": ["AVENTADOR COUPE", "GALLARDO COUPE", "AVENTADOR ROADSTER", "HURACAN", "VENENO ROADSTER", "HURACAN SPYDER", "AVENTADOR COUPE LP 740", "AVENTADOR ROADSTER LP 740", "AVENTADOR S COUPE", "AVENTADOR S ROADSTER", "HURACAN AWD", "HURACAN SPYDER AWD", "Aventador Coupe", "Aventador Roadster", "Huracan Coupe", "Huracan Coupe AWD", "Huracan Spyder", "Huracan Spyder AWD", "Huracan Performante Coupe", "Huracan Performante Spyder", "Urus"],
+              "LAND ROVER": ["LR2", "LR4", "RANGE ROVER EVOQUE", "RANGE ROVER EVOQUE COUPE", "RANGE ROVER LWB V8 5.0 SC", "RANGE ROVER LWB V8 5.0 SC FFV", "RANGE ROVER SPORT V6 3.0 SC", "RANGE ROVER SPORT V6 3.0 SC FFV", "RANGE ROVER SPORT V8 5.0 SC", "RANGE ROVER SPORT V8 5.0 SC FFV", "RANGE ROVER V6 3.0 SC", "RANGE ROVER V6 3.0 SC FFV", "RANGE ROVER V8 5.0 SC", "RANGE ROVER V8 5.0 SC FFV", "RANGE ROVER", "RANGE ROVER SUPERCHARGED", "RANGE ROVER SUPERCHARGED LWB", "RANGE ROVER SPORT", "RANGE ROVER SPORT SUPERCHARGED", "DISCOVERY SPORT", "RANGE ROVER TD6 DIESEL", "RANGE ROVER SPORT TD6 DIESEL", "RANGE ROVER EVOQUE CONVERTIBLE", "RANGE ROVER VELAR", "Discovery", "Discovery TD6 Diesel", "Discovery Sport", "Range Rover 3.0", "Range Rover TD6 Diesel", "Range Rover 5.0 Supercharged", "Range Rover SVAutobiography LWB", "Range Rover Sport 3.0", "Range Rover Sport TD6 Diesel", "Range Rover Sport Supercharged", "Range Rover Evoque", "Range Rover Evoque Convertible", "Range Rover Velar D180", "Range Rover Velar P300", "Range Rover Velar P380", "Discovery Sport P250", "Discovery Sport P290", "Range Rover 5.0 Supercharged LWB", "Range Rover SVAutobiography Dynamic", "Range Rover Sport SVR", "Range Rover Evoque P250", "Range Rover Evoque P300", "Range Rover Velar P250", "Range Rover Velar P340", "Range Rover Velar SVAutobiography Dynamic"],
+              "LEXUS": ["CT 200h", "ES 300h", "ES 350", "GS 350", "GS 350 AWD", "GS 450h", "GX 460", "IS 250", "IS 250 AWD", "IS 250 C", "IS 350", "IS 350 AWD", "IS 350 C", "IS F", "LS 460", "LS 460 AWD", "LS 460 L AWD", "LS 600h L", "LX 570", "RX 350 AWD", "RX 450h AWD", "NX 200t AWD", "NX 200t AWD F SPORT", "NX 300h AWD", "RC 350", "RC 350 AWD", "RC F", "GS 200t", "GS 200t F SPORT", "GS 350 F SPORT", "GS F", "IS 200t", "IS 300 AWD", "RC 200t", "RC 300 AWD", "IS 300", "LC 500", "LC 500h", "LS 500", "LS 500 AWD", "LS 500h", "LS 500h AWD", "NX 300 AWD", "NX 300 AWD F SPORT", "RX 350 L AWD", "ES 350 F SPORT", "RX 450h L AWD", "UX 200", "UX 250h", "UX 250h AWD"],
+              "LINCOLN": ["MKS AWD", "MKT AWD", "MKT LIVERY", "MKT LIVERY AWD", "MKX AWD", "MKZ", "MKZ AWD", "MKZ HYBRID", "NAVIGATOR 4X4 FFV", "MKC AWD", "NAVIGATOR 4X4", "NAVIGATOR L 4X4", "CONTINENTAL AWD", "MKC AWD (Start/Stop)", "Continental AWD", "MKT Livery AWD", "MKZ Hybrid", "Nautilus", "Navigator 4X4", "Aviator", "Corsair AWD", "Nautilus AWD"],
+              "MASERATI": ["GHIBLI", "GHIBLI AWD", "GRANTURISMO", "GRANTURISMO CONVERTIBLE", "QUATTROPORTE GTS", "QUATTROPORTE SQ4", "GHIBLI S", "GHIBLI SQ4", "QUATTROPORTE S", "LEVANTE", "LEVANTE S", "Ghibli", "Ghibli S", "Ghibli SQ4", "GranTurismo Convertible", "Levante", "Levante S", "Levante GTS", "Levante Trofeo", "Quattroporte S", "Quattroporte SQ4", "Quattroporte GTS", "Ghibli S Q4", "Quattroporte S Q4"],
+              "MAZDA": ["CX-5", "CX-5 4WD", "CX-9", "CX-9 4WD", "MAZDA2", "MAZDA3 4-DOOR", "MAZDA3 4-DOOR (i-ELOOP)", "MAZDA3 4-DOOR (SIL)", "MAZDA3 5-DOOR", "MAZDA3 5-DOOR (i-ELOOP)", "MAZDA3 5-DOOR (SIL)", "MAZDA5", "MAZDA6", "MAZDA6 (i-ELOOP)", "MX-5", "CX-3", "CX-3 4WD", "CX-5 (SIL)", "MAZDA6 (SIL)", "MX-5 (SIL)", "CX-5 ", "CX-5 (Cylinder Deactivation)", "CX-5 4WD (Cylinder Deactivation)", "MAZDA6 TURBO", "CX-5 Turbo 4WD", "CX-5 Diesel 4WD", "Mazda3 4-Door", "Mazda3 4-Door (SIL)", "Mazda3 4-Door (Cylinder Deactivation)", "Mazda3 4-Door 4WD", "Mazda3 5-Door", "Mazda3 5-Door (SIL)", "Mazda3 5-Door 4WD", "Mazda6", "Mazda6 Turbo", "CX-3 (SIL)", "CX-30", "CX-30 4WD", "CX-30 4WD (Cylinder Deactivation)"],
+              "MERCEDES-BENZ": ["B 250", "C 250", "C 250 COUPE", "C 300 4MATIC FFV", "C 350", "C 350 4MATIC", "C 350 4MATIC COUPE", "C 350 COUPE", "C 63 AMG", "C 63 AMG COUPE", "CL 550 4MATIC", "CL 63 AMG", "CLA 250", "CLA 45 AMG 4MATIC", "CLS 550 4MATIC", "CLS 63 AMG 4MATIC", "CLS 63 AMG S 4MATIC", "E 250 BLUETEC 4MATIC", "E 300 4MATIC", "E 350 4MATIC", "E 350 4MATIC COUPE", "E 350 4MATIC WAGON", "E 350 CABRIOLET", "E 350 COUPE", "E 400 HYBRID", "E 550 4MATIC", "E 550 CABRIOLET", "E 550 COUPE", "E 63 AMG 4MATIC", "E 63 AMG 4MATIC WAGON", "E 63 AMG S 4MATIC", "E 63 AMG S 4MATIC WAGON", "G 550", "G 63 AMG", "GL 350 BLUETEC 4MATIC", "GL 450 4MATIC", "GL 550 4MATIC", "GL 63 AMG", "GLK 250 BLUETEC 4MATIC", "GLK 350 4MATIC", "ML 350 4MATIC FFV", "ML 350 BLUETEC 4MATIC", "ML 550 4MATIC", "ML 63 AMG 4MATIC", "S 550 4MATIC LWB", "S 550 4MATIC SWB", "S 63 AMG 4MATIC", "SL 550", "SL 63 AMG", "SL 65 AMG", "SLK 250", "SLK 350", "SLK 55 AMG", "SLS AMG BLACK SERIES COUPE", "SLS AMG GT COUPE", "SLS AMG ROADSTER", "B 250 4MATIC", "C 300 4MATIC", "C 400 4MATIC", "CLA 250 4MATIC", "CLA 45 AMG", "CLS 400 4MATIC", "E 400 4MATIC", "E 400 4MATIC WAGON", "E 400 CABRIOLET", "E 400 COUPE", "GLA 250 4MATIC", "GLA 45 AMG 4MATIC", "ML 400 4MATIC", "S 400 4MATIC", "S 550 4MATIC COUPE", "S 600", "S 63 AMG COUPE", "S 65 AMG", "S 65 AMG COUPE", "SLS AMG GT ROADSTER", "AMG C 63", "AMG C 63 S", "AMG CLA 45", "AMG CLS 63 S 4MATIC", "AMG E 63 S 4MATIC", "AMG E 63 S 4MATIC WAGON", "AMG G 63", "AMG G 65", "AMG GL 63 S", "AMG GLA 45", "AMG GLE 63 S 4MATIC", "AMG GLE 63 S COUPE 4MATIC", "AMG GT S", "AMG S 63", "AMG S 63 COUPE", "AMG S 65", "AMG S 65 COUPE", "AMG SL 63", "AMG SL 65", "AMG SLK 55", "C 450 AMG SPORT 4MATIC", "CLA 250 4MATIC FFV", "E 400 4MATIC COUPE", "GLE 350d 4MATIC", "GLE 350d 4MATIC COUPE", "GLE 400 4MATIC", "GLE 450 AMG SPORT 4MATIC COUPE", "GLE 550 4MATIC", "MAYBACH S 600", "METRIS CARGO", "METRIS PASSENGER", "S 400 4MATIC SWB", "SLK 300", "AMG C 63 CABRIOLET", "AMG C 63 COUPE", "AMG C 63 S CABRIOLET", "AMG C 63 S COUPE", "AMG GLA 45 4MATIC", "AMG GLC 43 4MATIC COUPE", "AMG GLE 43 4MATIC", "AMG GLE 43 4MATIC COUPE", "AMG GLE 63 S 4MATIC COUPE", "AMG GLS 63", "AMG GT COUPE", "AMG GT S COUPE", "AMG S 63 4MATIC", "AMG S 63 CABRIOLET", "AMG S 65 CABRIOLET", "AMG SLC 43", "C 300 4MATIC CABRIOLET", "C 300 4MATIC COUPE", "GLC 300 4MATIC", "GLS 450 4MATIC", "GLS 550 4MATIC", "S 550 4MATIC CABRIOLET", "SL 450", "SLC 300", "AMG C 43 4MATIC", "AMG C 43 4MATIC CABRIOLET", "AMG C 43 4MATIC COUPE", "AMG CLA 45 4MATIC", "AMG E 43 4MATIC", "AMG GLC 43 4MATIC", "AMG GLS 63 4MATIC", "AMG GT ROADSTER", "AMG GT C COUPE", "AMG GT C ROADSTER", "AMG GT R COUPE", "AMG S 63 4MATIC CABRIOLET", "AMG S 63 4MATIC COUPE", "C 300 4MATIC WAGON", "E 400 4MATIC CABRIOLET", "GLC 300 4MATIC COUPE", "MAYBACH S 650", "S 450 4MATIC SWB", "S 560 CABRIOLET", "S 560 4MATIC", "S 560 4MATIC SWB", "S 560 4MATIC COUPE", "A 220", "A 220 4MATIC", "A 250", "A 250 4MATIC", "AMG C 43 4MATIC Cabriolet", "AMG C 43 4MATIC Coupe", "AMG C 43 4MATIC Wagon", "AMG C 63 S Cabriolet", "AMG C 63 S Coupe", "AMG CLS 53 4MATIC+", "AMG E 53 4MATIC+", "AMG E 53 4MATIC+ Cabriolet", "AMG E 53 4MATIC+ Coupe", "AMG E 53 4MATIC+ Wagon", "AMG E 63 S 4MATIC+", "AMG E 63 S 4MATIC+ Wagon", "AMG GLC 43 4MATIC Coupe", "AMG GLC 63 S 4MATIC+", "AMG GLC 63 S 4MATIC+ Coupe", "AMG GLE 43 4MATIC Coupe", "AMG GLE 63 S 4MATIC Coupe", "AMG GT 53 4MATIC+ Coupe", "AMG GT 63 4MATIC+ Coupe", "AMG GT 63 S 4MATIC+ Coupe", "AMG GT C Coupe", "AMG GT C Roadster", "AMG GT R Coupe", "AMG S 63 4MATIC+", "AMG S 63 4MATIC+ Cabriolet", "AMG S 63 4MATIC+ Coupe", "AMG S 65 Cabriolet", "AMG S 65 Coupe", "C 300 4MATIC Cabriolet", "C 300 4MATIC Coupe", "C 300 4MATIC Wagon", "CLS 450 4MATIC", "E 450 4MATIC", "E 450 4MATIC Cabriolet", "E 450 4MATIC Coupe", "E 450 4MATIC Wagon", "GLC 300 4MATIC Coupe", "Maybach S 560 4MATIC", "Maybach S 650", "Metris Cargo", "Metris Cargo LWB", "Metris Passenger", "S 560 Cabriolet"],
+              "MINI": ["COOPER CLUBMAN", "COOPER CONVERTIBLE", "COOPER COUNTRYMAN", "COOPER COUPE", "COOPER PACEMAN", "COOPER ROADSTER", "COOPER S CLUBMAN", "COOPER S CONVERTIBLE", "COOPER S COUNTRYMAN ALL4", "COOPER S COUPE", "COOPER S PACEMAN ALL4", "COOPER S ROADSTER", "JOHN COOPER WORKS CLUBMAN", "JOHN COOPER WORKS CONVERTIBLE", "JOHN COOPER WORKS COUNTRYMAN ALL4", "JOHN COOPER WORKS COUPE", "JOHN COOPER WORKS PACEMAN ALL4", "JOHN COOPER WORKS ROADSTER", "COOPER 3 DOOR", "COOPER 5 DOOR", "COOPER S 3 DOOR", "COOPER S 5 DOOR", "JOHN COOPER WORKS", "COOPER CLUBMAN ALL4", "COOPER COUNTRYMAN ALL4", "COOPER S CLUBMAN ALL4", "COOPER S COUNTRYMAN  ALL4", "JOHN COOPER WORKS 3 DOOR", "JOHN COOPER WORKS CLUBMAN ALL4", "Cooper 3 Door", "Cooper 5 Door", "Cooper Clubman ALL4", "Cooper Convertible", "Cooper Countryman ALL4", "Cooper S 3 Door", "Cooper S 5 Door", "Cooper S Clubman ALL4", "Cooper S Convertible", "Cooper S Countryman ALL4", "John Cooper Works 3 Door", "John Cooper Works Clubman ALL4", "John Cooper Works Convertible", "John Cooper Works Countryman ALL4"],
+              "MITSUBISHI": ["LANCER", "LANCER AWD", "LANCER EVOLUTION", "LANCER RALLIART", "LANCER SPORTBACK", "MIRAGE", "OUTLANDER", "OUTLANDER 4WD", "RVR", "RVR 4WD", "LANCER 4WD", "MIRAGE G4", "ECLIPSE CROSS", "ECLIPSE CROSS 4WD", "Eclipse Cross 4WD", "Mirage", "Mirage G4", "Outlander 4WD"],
+              "NISSAN": ["370Z", "370Z ROADSTER", "ALTIMA", "ARMADA 4WD", "FRONTIER", "FRONTIER 4WD", "GT-R", "JUKE", "JUKE AWD", "MAXIMA", "MURANO AWD", "NV200 CARGO VAN", "PATHFINDER", "PATHFINDER 4WD", "PATHFINDER HYBRID 4WD", "QUEST", "ROGUE", "ROGUE AWD", "SENTRA", "TITAN", "TITAN 4WD", "VERSA", "XTERRA 4WD", "370Z COUPE", "JUKE NISMO RS", "JUKE NISMO RS AWD", "MICRA", "MURANO", "PATHFINDER 4WD PLATINUM", "ALTIMA 3.5", "ALTIMA SR", "QASHQAI", "QASHQAI AWD", "SENTRA (Turbo)", "SENTRA NISMO", "TITAN 4WD PRO-4X", "KICKS", "370Z Roadster", "Altima", "Altima SR/Platinum", "Altima AWD", "Altima AWD SR/Platinum", "Armada 4WD", "Frontier", "Frontier 4WD", "Kicks", "Maxima", "Micra", "Murano", "Murano AWD", "NV200 Cargo Van", "Pathfinder", "Pathfinder 4WD", "Pathfinder 4WD Platinum", "Qashqai", "Qashqai AWD", "Rogue", "Rogue AWD", "Sentra", "Sentra (Turbo)", "Sentra Nismo", "Titan", "Titan 4WD", "Titan 4WD Pro-4X", "Versa", "Sentra SR"],
+              "PORSCHE": ["911 CARRERA", "911 CARRERA 4", "911 CARRERA 4 CABRIOLET", "911 CARRERA 4S", "911 CARRERA 4S CABRIOLET", "911 CARRERA CABRIOLET", "911 CARRERA S", "911 CARRERA S CABRIOLET", "911 GT3", "911 TURBO", "911 TURBO CABRIOLET", "911 TURBO S", "911 TURBO S CABRIOLET", "BOXSTER", "BOXSTER S", "CAYENNE", "CAYENNE DIESEL (modified)", "CAYENNE GTS", "CAYENNE S", "CAYENNE S HYBRID", "CAYENNE TURBO", "CAYENNE TURBO S", "CAYMAN", "CAYMAN S", "PANAMERA", "PANAMERA 4", "PANAMERA 4S", "PANAMERA 4S EXECUTIVE", "PANAMERA GTS", "PANAMERA S", "PANAMERA TURBO", "PANAMERA TURBO EXECUTIVE", "911 CARRERA 4 GTS", "911 CARRERA 4 GTS CABRIOLET", "911 CARRERA GTS", "911 CARRERA GTS CABRIOLET", "911 TARGA 4", "911 TARGA 4S", "BOXSTER GTS", "CAYMAN GTS", "MACAN S", "MACAN TURBO", "PANAMERA TURBO S", "PANAMERA TURBO S EXECUTIVE", "911 GT3RS", "BOXSTER SPYDER", "CAYMAN GT4", "CAYENNE PLATINUM", "MACAN", "MACAN GTS", "911 TARGA 4 GTS", "911 TURBO S EXCLUSIVE", "MACAN TURBO KIT", "PANAMERA 4 EXECUTIVE", "PANAMERA 4 ST", "PANAMERA 4S ST", "PANAMERA TURBO ST", "911 Carrera", "911 Carrera Cabriolet", "911 Carrera GTS", "911 Carrera GTS Cabriolet", "911 Carrera S", "911 Carrera S Cabriolet", "911 Carrera T", "911 Carrera 4", "911 Carrera 4 Cabriolet", "911 Carrera 4 GTS", "911 Carrera 4 GTS Cabriolet", "911 Carrera 4S", "911 Carrera 4S Cabriolet", "911 GT2 RS", "911 GT3 RS", "911 GT3 Touring", "911 Speedster", "911 Targa 4", "911 Targa 4 GTS", "911 Targa 4S", "911 Turbo", "911 Turbo Cabriolet", "911 Turbo S", "911 Turbo S Cabriolet", "911 Turbo S Exclusive Cabriolet", "Boxster", "Boxster GTS", "Boxster S", "Cayenne", "Cayenne S", "Cayenne Turbo", "Cayman", "Cayman GTS", "Cayman S", "Macan", "Macan S", "Panamera", "Panamera 4", "Panamera 4 Executive", "Panamera 4 ST", "Panamera 4S", "Panamera 4S Executive", "Panamera 4S ST", "Panamera GTS", "Panamera GTS ST", "Panamera Turbo", "Panamera Turbo Executive", "Panamera Turbo ST"],
+              "RAM": ["1500 (MDS)", "1500 4X4 (MDS)", "1500 4X4 DIESEL", "1500 4X4 FFV", "1500 DIESEL", "1500 FFV", "1500 HFE", "CARGO VAN FFV", "1500", "1500 ECODIESEL", "1500 ECODIESEL HFE", "1500 4X4", "1500 4X4 ECODIESEL", "PROMASTER CITY", "1500 eTorque", "1500 HFE eTorque", "1500 4X4 eTorque", "1500 Classic EcoDiesel", "1500 Classic FFV", "1500 Classic", "1500 Classic 4X4 EcoDiesel", "1500 Classic 4X4 FFV", "1500 Classic 4X4", "ProMaster City", "1500 EcoDiesel", "1500 4X4 EcoDiesel"],
+              "ROLLS-ROYCE": ["GHOST", "GHOST EWB", "PHANTOM", "PHANTOM COUPE", "PHANTOM DROPHEAD COUPE", "PHANTOM EWB", "WRAITH", "DAWN", "Cullinan", "Dawn", "Ghost", "Ghost EWB", "Phantom", "Phantom EWB", "Wraith", "Cullinan Black Badge"],
+              "SCION": ["FR-S", "iQ", "tC", "xB", "xD", "iM"],
+              "SMART": ["FORTWO CABRIOLET", "FORTWO COUPE"],
+              "SRT": ["VIPER COUPE", "VIPER GTS COUPE"],
+              "SUBARU": ["BRZ", "FORESTER AWD", "IMPREZA AWD", "IMPREZA WAGON AWD", "LEGACY AWD", "OUTBACK AWD", "TRIBECA AWD", "XV CROSSTREK AWD", "XV CROSSTREK HYBRID AWD", "WRX", "CROSSTREK AWD", "IMPREZA 4-DOOR AWD", "IMPREZA 5-DOOR AWD", "WRX AWD", "BRZ tS", "WRX STI AWD", "WRX STI AWD TYPE RA", "Ascent AWD", "Crosstrek AWD", "Forester AWD", "Impreza 4-Door AWD", "Impreza 5-Door AWD", "Legacy AWD", "Outback AWD"],
+              "TOYOTA": ["4RUNNER (Part-Time 4WD)", "4RUNNER 4WD", "AVALON", "CAMRY", "CAMRY HYBRID LE", "CAMRY HYBRID XLE/SE", "COROLLA", "COROLLA LE ECO (1-mode)", "COROLLA LE ECO (2-mode)", "COROLLA MATRIX", "FJ CRUISER 4WD", "HIGHLANDER", "HIGHLANDER AWD", "HIGHLANDER HYBRID AWD", "HIGHLANDER HYBRID AWD LE", "PRIUS", "PRIUS c", "PRIUS v", "RAV4", "RAV4 AWD", "RAV4 LIMITED AWD", "SEQUOIA 4WD", "SIENNA", "SIENNA AWD", "TACOMA", "TACOMA 4WD", "TUNDRA", "TUNDRA 4WD", "VENZA", "VENZA 4WD", "YARIS", "4RUNNER 4WD (Part-Time 4WD)", "RAV4 LE/XLE", "RAV4 HYBRID AWD", "RAV4 LIMITED/SE AWD", "TACOMA 4WD D-CAB OFF-ROAD", "YARIS (SIL)", "YARIS HATCHBACK", "86", "COROLLA iM", "HIGHLANDER AWD (Start/Stop System)", "HIGHLANDER AWD LE", "CAMRY LE/SE", "CAMRY XLE/XSE", "CAMRY XSE", "C-HR", "4Runner 4WD", "4Runner 4WD (Part-Time 4WD)", "Avalon", "Camry", "Camry LE/SE", "Camry XLE/XSE", "Camry XSE", "Camry Hybrid LE", "Camry Hybrid XLE/SE", "Corolla", "Corolla LE Eco", "Corolla Hatchback", "Highlander", "Highlander AWD", "Highlander AWD (Start/Stop System)", "Highlander AWD LE", "Highlander Hybrid AWD", "Prius", "Prius AWD", "Prius c", "RAV4 Hybrid AWD", "Sequoia 4WD", "Sienna", "Sienna AWD", "Tacoma", "Tacoma 4WD", "Tacoma 4WD D-Cab Off-Road", "Tundra", "Tundra 4WD", "Yaris", "Yaris (SIL)", "Yaris Hatchback", "Camry TRD", "Camry AWD LE/SE", "Camry AWD XLE/XSE", "Corolla XLE", "Corolla XSE", "Corolla Hybrid", "GR Supra", "Highlander Hybrid AWD Limited/Platinum", "RAV4 AWD TRD Off-Road", "Tacoma 4WD D-Cab TRD Off-Road/Pro"],
+              "VOLKSWAGEN": ["BEETLE", "BEETLE TDI (modified)", "BEETLE CONVERTIBLE", "CC", "CC 4MOTION", "EOS", "GOLF WAGON", "GOLF WAGON TDI (modified)", "JETTA", "JETTA TDI (modified)", "JETTA GLI", "JETTA TURBO HYBRID", "PASSAT", "PASSAT TDI (modified)", "ROUTAN", "TIGUAN", "TIGUAN 4MOTION", "TOUAREG", "TOUAREG TDI (modified)", "GOLF", "GOLF TDI (modified)", "GOLF GTI", "GOLF SPORTWAGON", "GOLF SPORTWAGON TDI (modified)", "JETTA HYBRID", "BEETLE DUNE", "GOLF R", "GOLF ALLTRACK", "GOLF SPORTWAGEN", "GOLF SPORTWAGEN 4MOTION", "ATLAS", "ATLAS 4MOTION", "BEETLE DUNE CONVERTIBLE", "Arteon 4MOTION", "Atlas", "Atlas 4MOTION", "Beetle", "Beetle Convertible", "Beetle Dune", "Beetle Dune Convertible", "Golf", "Golf GTI", "Golf R", "Golf Alltrack", "Golf SportWagen", "Golf SportWagen 4MOTION", "Jetta", "Jetta GLI", "Passat", "Tiguan", "Tiguan 4MOTION", "Atlas Cross Sport 4MOTION"],
+              "VOLVO": ["S60", "S60 AWD", "S80", "S80 AWD", "XC60", "XC60 AWD", "XC70 AWD", "XC90 AWD", "S60 POLESTAR AWD", "S60 T5 ", "S60 T5 AWD", "S60 T6   ", "S60 T6 AWD", "S80 T5", "S80 T6 AWD", "V60 CC", "V60 CC AWD", "V60 POLESTAR AWD", "V60 T5", "V60 T5 AWD", "V60 T6 AWD", "XC60 3.2 AWD", "XC60 T5", "XC60 T5 AWD", "XC60 T6  ", "XC60 T6 AWD", "XC70 3.2 AWD", "XC70 T5", "XC70 T6 AWD", "S60 CC T5 AWD", "S60 INSCRIPTION", "S60 INSCRIPTION T5 AWD", "S60 T5", "S60 T6", "S60 3.0T AWD", "S60 POLESTAR", "V60 CC T5 AWD", "V60 3.0T AWD", "V60 POLESTAR", "XC60 T6", "XC60 3.0T AWD", "XC70 T5 AWD", "XC90 T5", "XC90 T5 AWD", "XC90 T6 AWD", "S60 INSCRIPTION T5", "S90 T5", "S90 T6 AWD", "V90 T5", "V90 T6 AWD", "V90 CC T6 AWD", "S90 T5 AWD", "V90 CC T5 AWD", "XC40 T5 AWD", "XC40 T4 AWD"]
+              }
+              window.onload = function() {
+              var subjectSel = document.getElementById("subject");
+              var topicSel = document.getElementById("topic");
+              for (var x in subjectObject) {
+              subjectSel.options[subjectSel.options.length] = new Option(x, x);
+              }
+              subjectSel.onchange = function() {
+              //empty Chapters- and Topics- dropdowns
+              topicSel.length = 1;
+              //display correct values
+              var z = subjectObject[this.value];
+              for (var i = 0; i < z.length; i++) {
+              topicSel.options[topicSel.options.length] = new Option(z[i], z[i]);
+              }
+              }
+              }
+              </script>
+                Make: <select id="subject" name="subject">
+                  <option selected="selected" value="">
+                    Select Make
+                  </option>
+                </select>
+                <br>
+                Model: <select id="topic" name="topic">
+                  <option selected="selected" value="">
+                    Please select make first
+                  </option>
+                </select>
+                <br>
+                Vehicle Class: <select name="Vehicle Class">
+                  <option value="TWO-SEATER">
+                    Two-seater
+                  </option>
+                  <option value="SUV - SMALL">
+                    Small SUV
+                  </option>
+                  <option value="SUV - STANDARD">
+                    SUV
+                  </option>
+                  <option value="STATION WAGON - SMALL">
+                    Small Station Wagon
+                  </option>
+                  <option value="STATION WAGON - MID-SIZE">
+                    Mid-size Station Wagon
+                  </option>
+                  <option value="MINICOMPACT">
+                    Minicompact
+                  </option>
+                  <option value="COMPACT">
+                    Compact
+                  </option>
+                  <option value="SUBCOMPACT">
+                    Subcompact
+                  </option>
+                  <option value="PICKUP TRUCK - SMALL">
+                    Small Pickup Truck
+                  </option>
+                  <option value="PICKUP TRUCK - STANDARD">
+                    Pickup Truck
+                  </option>
+                  <option value="MINIVAN">
+                    Minivan
+                  </option>
+                  <option value="VAN - PASSENGER">
+                    Passenger Van
+                  </option>
+                  <option value="VAN - CARGO">
+                    Cargo Van
+                  </option>
+                  <option value="MID-SIZE">
+                    Mid-size
+                  </option>
+                  <option value="FULL-SIZE">
+                    Full-Size
+                  </option>
+                  <option value="SPECIAL PURPOSE VEHICLE">
+                    Special Purpose Vehicle
+                  </option>
+                </select>
+                <br>
+                Fuel Type: <select name="Fuel Type">
+                  <option value="Premium gasoline">
+                    Premium Gasoline
+                  </option>
+                  <option value="Gasoline">
+                    Gasoline
+                  </option>
+                  <option value="Diesel">
+                    Diesel
+                  </option>
+                  <option value="Ethanol">
+                    Ethanol
+                  </option>
+                  <option value="Natural gas">
+                    Natural Gas
+                  </option>
+                </select>
+                <br>
+                MPG: <input class="validate" id="mpg" name="mpg" placeholder=
+                "Enter MPG" wtype="number">
+                <br>
+                <br>
+                <!-- Submit Button-->
+                <div class="d-grid">
+                  <button class="btn btn-primary btn-xl" id="submitButton"
+                  type="submit">Submit</button>
+                  <br>
+                  <h5>{{prediction}}</h5>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials-->
+
+    <section class="testimonials text-center bg-light" id='TEAM'>
+      <div class="container">
+        <h2 class="mb-5">
+          Our Team
+        </h2>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img alt="..." class="img-fluid rounded-circle mb-3" src=
+              ".\static\images\yukta.jpg">
+              <h5>
+                Yukta Sharma
+              </h5>
+
+              <p class="font-weight-light mb-3">
+                17 year old student with an interest in environmental studies
+                and data science.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img alt="..." class="img-fluid rounded-circle mb-3" src=
+              ".\static\images\michael.jpg">
+              <h5>
+                Michael Cedeno
+              </h5>
+
+              <p class="font-weight-light mb-3">
+                16 year old going into senior year with an interest in
+                mathematics and computer science.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img alt="..." class="img-fluid rounded-circle mb-3" src=
+              ".\static\images\unknown.jpg">
+              <h5>
+                Tobi
+              </h5>
+
+              <p class="font-weight-light mb-3">
+                18 year old who is planning on majoring in computer science at
+                George Mason University
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img alt="..." class="img-fluid rounded-circle mb-3" src=
+              ".\static\images\3f71d6f2-3acb-4d7e-bc36-82e7ec84abae (1).jpg">
+              <h5>
+                Ameya Kulkarni
+              </h5>
+
+              <p class="font-weight-light mb-3">
+                Currently a sophomore, enjoys coding, robotics, playing the
+                guitar, and sports.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img alt="..." class="img-fluid rounded-circle mb-3" src=
+              ".\static\images\stick_man.png">
+              <h5>
+                Joseph Yun
+              </h5>
+
+              <p class="font-weight-light mb-3">
+                15 year old kid who thinks AI is interesting.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img alt="..." class="img-fluid rounded-circle mb-3" src=
+              ".\static\images\ashley.jpg">
+              <h5>
+                Ashley Warren
+              </h5>
+
+              <p class="font-weight-light mb-0">
+                A 16 year old from Chicago with an interest in tech and math.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <h5>
+              </h5>
+
+              <p class="font-weight-light mb-0">
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img alt="..." class="img-fluid rounded-circle mb-3" src=
+              ".\static\images\emma.jpeg">
+              <h5>
+                Emma Chen
+              </h5>
+
+              <p class="font-weight-light mb-0">
+                Instructor
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer-->
+
+    <footer class="bg-light py-5">
+      <div class="container px-4 px-lg-5">
+        <div class="small text-center text-muted">
+          Copyright © 2022 - AI Camp
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src=
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleLightbox plugin JS-->
+     
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+    <!-- Core theme JS-->
+     
+    <script src=".\static\js\scripts.js"></script> 
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+     
+    <!-- * *                               SB Forms JS                               * *-->
+     
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+     
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+     
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>
