@@ -93,4 +93,4 @@
 {"cell_type":"markdown","id":"a7d592","input":"### Exploratory Data Analysis","pos":13,"type":"cell"}
 {"cell_type":"markdown","id":"d4c727","input":"Data source: [https://www.kaggle.com/datasets/debajyotipodder/co2\\-emission\\-by\\-vehicles?resource=download](https://www.kaggle.com/datasets/debajyotipodder/co2-emission-by-vehicles?resource=download)\n\nModel\n\n4WD/4X4 = Four\\-wheel drive\n\nAWD = All\\-wheel drive\n\nFFV = Flexible\\-fuel vehicle\n\nSWB = Short wheelbase\n\nLWB = Long wheelbase\n\nEWB = Extended wheelbase\n\nTransmission\n\nA = Automatic\n\nAM = Automated manual\n\nAS = Automatic with select shift\n\nAV = Continuously variable\n\nM = Manual\n\n3 \\- 10 = Number of gears\n\nFuel type\n\nX = Regular gasoline\n\nZ = Premium gasoline\n\nD = Diesel\n\nE = Ethanol \\(E85\\)\n\nN = Natural gas\n\n","pos":3,"type":"cell"}
 {"id":0,"time":1659538568202,"type":"user"}
-{"last_load":1659621510446,"type":"file"}
+{"last_load":1659710901451,"type":"file"}

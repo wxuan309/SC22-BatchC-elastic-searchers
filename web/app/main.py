@@ -30,8 +30,7 @@ def encode(values):
     df_all.replace(to_replace= 'D', value= 'Diesel' , inplace= True)
     df_all.replace(to_replace= 'E', value= 'Ethanol' , inplace= True)
     df_all.replace(to_replace= 'N', value= 'Natural gas' , inplace= True)
-    df_all.drop(['Transmission', 'Engine Size(L)', 'Cylinders', 'Fuel Consumption City (L/100 km)', 'Fuel Consumption Hwy (L/100 km)', 
-                 'Fuel Consumption Comb (L/100 km)', 'CO2 Emissions(g/km)'], axis = 1, inplace = True)
+    df_all.drop(['Transmission', 'Engine Size(L)', 'Cylinders', 'Fuel Consumption City (L/100 km)', 'Fuel Consumption Hwy (L/100 km)', 'Fuel Consumption Comb (L/100 km)', 'CO2 Emissions(g/km)'], axis = 1, inplace = True)
     for col in col_category:
         df_all = pd.concat([df_all.drop(col, axis=1), pd.get_dummies(df_all[col], prefix=col, prefix_sep='_')], axis=1)
     all_cols = df_all.columns
@@ -50,15 +49,18 @@ def home():
         test = encode(values)
         filename = 'finalized_model.sav'
         loaded_model = pickle.load(open(filename, 'rb'))
-        result = loaded_model.predict(test)
+        result = round(loaded_model.predict(test)[0], 1)
         print(result)
-        if result[0] < 30:
-            prediction = 'Your predicted CO2 emission is ' + str(result[0]) + '.' + ''
-        elif result[0] < 50:
-            prediction = 'Your predicted CO2 emission is ' + str(result[0]) + '.' + ''
+        if result < 250:
+            prediction = 'Your vehicle\'s predicted CO2 emission rate is ' + str(result) + ' g/mile.'
+            description = ' Your vehicle’s CO2 emission rate is lower than most vehicles! This means you have a car that has more of a positive environmental impact! Although you’re already more efficient in helping the environment with your car, you can always try to lower your impact on the environment by doing tasks such as: eating less meat, reducing your waste, and reducing your water use!'
+        elif result < 390:
+            prediction = 'Your vehicle\'s predicted CO2 emission rate is ' + str(result) + ' g/mile.'
+            description = ' Your vehicle’s CO2 emission rate is not too high, but not too low either! This means you have a car that has a moderately negative impact on the environment! Things you could do to help reduce your CO2 emissions in terms of vehicles include: using more public transportation, driving less, and carpooling whenever possible!'
         else:
-            prediction = 'Your predicted CO2 emission is ' + str(result[0]) + '.' + ''
-        return render_template('index.html', prediction = prediction)
+            prediction = 'Your vehicle\'s predicted CO2 emission rate is ' + str(result) + ' g/mile.'
+            description = ' Your vehicle’s CO2 emission rate is higher than most vehicles! This means you have a negative impact on the environment! Although this isn’t possible for everyone to do, you can always try to buy another vehicle that is more energy efficient. Other tasks you could try to mitigate your impact on the environment include: using more public transportation, driving less, and carpooling whenever possible! When not discussing vehicles, you could also try: eating less meat, reducing your waste, and reducing your water use!'
+        return render_template('index.html', prediction = prediction, description = description)
 
     return render_template('index.html')
 
